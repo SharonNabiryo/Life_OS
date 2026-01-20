@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Operating System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Life OS <img src="images/icon.png" alt="" /></h1>
+        <p>Daily Planner</p>
+
+        <div class="row">
+          <form id="habit-form" action="">
+            <input type="text" id="habit-input" placeholder="Add a habit..." />
+            <button id="form-btn" type="button" onclick="addHabit()">
+              Add a Habit
+            </button>
+          </form>
+        </div>
+
+        <ul id="habit-list">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
